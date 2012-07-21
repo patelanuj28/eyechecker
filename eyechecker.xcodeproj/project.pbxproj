@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC838CAB15BB491100ABC3B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC838CAA15BB491100ABC3B7 /* UIKit.framework */; };
+		EC838CAD15BB491100ABC3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC838CAC15BB491100ABC3B7 /* Foundation.framework */; };
+		EC838CAF15BB491100ABC3B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC838CAE15BB491100ABC3B7 /* CoreGraphics.framework */; };
+		EC838CB515BB491100ABC3B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC838CB315BB491100ABC3B7 /* InfoPlist.strings */; };
+		EC838CB715BB491100ABC3B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC838CB615BB491100ABC3B7 /* main.m */; };
+		EC838CBB15BB491100ABC3B7 /* oslohouseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC838CBA15BB491100ABC3B7 /* oslohouseAppDelegate.m */; };
+		EC838CBE15BB491100ABC3B7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC838CBC15BB491100ABC3B7 /* MainStoryboard.storyboard */; };
+		EC838CC115BB491100ABC3B7 /* oslohouseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC838CC015BB491100ABC3B7 /* oslohouseMainViewController.m */; };
+		EC838CC415BB491100ABC3B7 /* oslohouseFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC838CC315BB491100ABC3B7 /* oslohouseFlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC838CA615BB491100ABC3B7 /* eyechecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyechecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC838CAA15BB491100ABC3B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC838CAC15BB491100ABC3B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC838CAE15BB491100ABC3B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC838CB215BB491100ABC3B7 /* eyechecker-Info.plist */ = {isa = PBXFileReference; path = "eyechecker-Info.plist"; sourceTree = "<group>"; };
+		EC838CB415BB491100ABC3B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC838CB615BB491100ABC3B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC838CB815BB491100ABC3B7 /* eyechecker-Prefix.pch */ = {isa = PBXFileReference; path = "eyechecker-Prefix.pch"; sourceTree = "<group>"; };
+		EC838CB915BB491100ABC3B7 /* oslohouseAppDelegate.h */ = {isa = PBXFileReference; path = oslohouseAppDelegate.h; sourceTree = "<group>"; };
+		EC838CBA15BB491100ABC3B7 /* oslohouseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oslohouseAppDelegate.m; sourceTree = "<group>"; };
+		EC838CBD15BB491100ABC3B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EC838CBF15BB491100ABC3B7 /* oslohouseMainViewController.h */ = {isa = PBXFileReference; path = oslohouseMainViewController.h; sourceTree = "<group>"; };
+		EC838CC015BB491100ABC3B7 /* oslohouseMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oslohouseMainViewController.m; sourceTree = "<group>"; };
+		EC838CC215BB491100ABC3B7 /* oslohouseFlipsideViewController.h */ = {isa = PBXFileReference; path = oslohouseFlipsideViewController.h; sourceTree = "<group>"; };
+		EC838CC315BB491100ABC3B7 /* oslohouseFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oslohouseFlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC838CA315BB491100ABC3B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC838CAB15BB491100ABC3B7 /* UIKit.framework in Frameworks */,
+				EC838CAD15BB491100ABC3B7 /* Foundation.framework in Frameworks */,
+				EC838CAF15BB491100ABC3B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC838C9B15BB491100ABC3B7 = {
+			isa = PBXGroup;
+			children = (
+				EC838CB015BB491100ABC3B7 /* eyechecker */,
+				EC838CA915BB491100ABC3B7 /* Frameworks */,
+				EC838CA715BB491100ABC3B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC838CA715BB491100ABC3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC838CA615BB491100ABC3B7 /* eyechecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC838CA915BB491100ABC3B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC838CAA15BB491100ABC3B7 /* UIKit.framework */,
+				EC838CAC15BB491100ABC3B7 /* Foundation.framework */,
+				EC838CAE15BB491100ABC3B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC838CB015BB491100ABC3B7 /* eyechecker */ = {
+			isa = PBXGroup;
+			children = (
+				EC838CB915BB491100ABC3B7 /* oslohouseAppDelegate.h */,
+				EC838CBA15BB491100ABC3B7 /* oslohouseAppDelegate.m */,
+				EC838CBC15BB491100ABC3B7 /* MainStoryboard.storyboard */,
+				EC838CBF15BB491100ABC3B7 /* oslohouseMainViewController.h */,
+				EC838CC015BB491100ABC3B7 /* oslohouseMainViewController.m */,
+				EC838CC215BB491100ABC3B7 /* oslohouseFlipsideViewController.h */,
+				EC838CC315BB491100ABC3B7 /* oslohouseFlipsideViewController.m */,
+				EC838CB115BB491100ABC3B7 /* Supporting Files */,
+			);
+			path = eyechecker;
+			sourceTree = "<group>";
+		};
+		EC838CB115BB491100ABC3B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC838CB215BB491100ABC3B7 /* eyechecker-Info.plist */,
+				EC838CB315BB491100ABC3B7 /* InfoPlist.strings */,
+				EC838CB615BB491100ABC3B7 /* main.m */,
+				EC838CB815BB491100ABC3B7 /* eyechecker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC838CA515BB491100ABC3B7 /* eyechecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC838CC715BB491100ABC3B7 /* Build configuration list for PBXNativeTarget "eyechecker" */;
+			buildPhases = (
+				EC838CA215BB491100ABC3B7 /* Sources */,
+				EC838CA315BB491100ABC3B7 /* Frameworks */,
+				EC838CA415BB491100ABC3B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eyechecker;
+			productName = eyechecker;
+			productReference = EC838CA615BB491100ABC3B7 /* eyechecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC838C9D15BB491100ABC3B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EC838CA015BB491100ABC3B7 /* Build configuration list for PBXProject "eyechecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC838C9B15BB491100ABC3B7;
+			productRefGroup = EC838CA715BB491100ABC3B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC838CA515BB491100ABC3B7 /* eyechecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC838CA415BB491100ABC3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC838CB515BB491100ABC3B7 /* InfoPlist.strings in Resources */,
+				EC838CBE15BB491100ABC3B7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC838CA215BB491100ABC3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC838CB715BB491100ABC3B7 /* main.m in Sources */,
+				EC838CBB15BB491100ABC3B7 /* oslohouseAppDelegate.m in Sources */,
+				EC838CC115BB491100ABC3B7 /* oslohouseMainViewController.m in Sources */,
+				EC838CC415BB491100ABC3B7 /* oslohouseFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC838CB315BB491100ABC3B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC838CB415BB491100ABC3B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC838CBC15BB491100ABC3B7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC838CBD15BB491100ABC3B7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC838CC515BB491100ABC3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC838CC615BB491100ABC3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC838CC815BB491100ABC3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eyechecker/eyechecker-Prefix.pch";
+				INFOPLIST_FILE = "eyechecker/eyechecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC838CC915BB491100ABC3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eyechecker/eyechecker-Prefix.pch";
+				INFOPLIST_FILE = "eyechecker/eyechecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC838CA015BB491100ABC3B7 /* Build configuration list for PBXProject "eyechecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC838CC515BB491100ABC3B7 /* Debug */,
+				EC838CC615BB491100ABC3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC838CC715BB491100ABC3B7 /* Build configuration list for PBXNativeTarget "eyechecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC838CC815BB491100ABC3B7 /* Debug */,
+				EC838CC915BB491100ABC3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC838C9D15BB491100ABC3B7 /* Project object */;
+}
