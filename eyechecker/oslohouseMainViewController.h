@@ -9,5 +9,6 @@
 #import "oslohouseFlipsideViewController.h"
 
 @interface oslohouseMainViewController : UIViewController <oslohouseFlipsideViewControllerDelegate>
+- (IBAction)uploadpicture:(id)sender;
 
 @end

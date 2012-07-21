@@ -72,4 +72,6 @@
     }
 }
 
+- (IBAction)uploadpicture:(id)sender {
+}
 @end
