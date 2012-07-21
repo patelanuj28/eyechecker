@@ -16,6 +16,8 @@
 		EC838CBE15BB491100ABC3B7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC838CBC15BB491100ABC3B7 /* MainStoryboard.storyboard */; };
 		EC838CC115BB491100ABC3B7 /* oslohouseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC838CC015BB491100ABC3B7 /* oslohouseMainViewController.m */; };
 		EC838CC415BB491100ABC3B7 /* oslohouseFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC838CC315BB491100ABC3B7 /* oslohouseFlipsideViewController.m */; };
+		EC838CCB15BB503C00ABC3B7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC838CCA15BB503C00ABC3B7 /* Default.png */; };
+		EC838CCD15BB504D00ABC3B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC838CCC15BB504D00ABC3B7 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +25,19 @@
 		EC838CAA15BB491100ABC3B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC838CAC15BB491100ABC3B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC838CAE15BB491100ABC3B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EC838CB215BB491100ABC3B7 /* eyechecker-Info.plist */ = {isa = PBXFileReference; path = "eyechecker-Info.plist"; sourceTree = "<group>"; };
+		EC838CB215BB491100ABC3B7 /* eyechecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eyechecker-Info.plist"; sourceTree = "<group>"; };
 		EC838CB415BB491100ABC3B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC838CB615BB491100ABC3B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC838CB815BB491100ABC3B7 /* eyechecker-Prefix.pch */ = {isa = PBXFileReference; path = "eyechecker-Prefix.pch"; sourceTree = "<group>"; };
-		EC838CB915BB491100ABC3B7 /* oslohouseAppDelegate.h */ = {isa = PBXFileReference; path = oslohouseAppDelegate.h; sourceTree = "<group>"; };
+		EC838CB815BB491100ABC3B7 /* eyechecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eyechecker-Prefix.pch"; sourceTree = "<group>"; };
+		EC838CB915BB491100ABC3B7 /* oslohouseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oslohouseAppDelegate.h; sourceTree = "<group>"; };
 		EC838CBA15BB491100ABC3B7 /* oslohouseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oslohouseAppDelegate.m; sourceTree = "<group>"; };
 		EC838CBD15BB491100ABC3B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EC838CBF15BB491100ABC3B7 /* oslohouseMainViewController.h */ = {isa = PBXFileReference; path = oslohouseMainViewController.h; sourceTree = "<group>"; };
+		EC838CBF15BB491100ABC3B7 /* oslohouseMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oslohouseMainViewController.h; sourceTree = "<group>"; };
 		EC838CC015BB491100ABC3B7 /* oslohouseMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oslohouseMainViewController.m; sourceTree = "<group>"; };
-		EC838CC215BB491100ABC3B7 /* oslohouseFlipsideViewController.h */ = {isa = PBXFileReference; path = oslohouseFlipsideViewController.h; sourceTree = "<group>"; };
+		EC838CC215BB491100ABC3B7 /* oslohouseFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oslohouseFlipsideViewController.h; sourceTree = "<group>"; };
 		EC838CC315BB491100ABC3B7 /* oslohouseFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oslohouseFlipsideViewController.m; sourceTree = "<group>"; };
+		EC838CCA15BB503C00ABC3B7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC838CCC15BB504D00ABC3B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		EC838C9B15BB491100ABC3B7 = {
 			isa = PBXGroup;
 			children = (
+				EC838CCC15BB504D00ABC3B7 /* Default@2x.png */,
+				EC838CCA15BB503C00ABC3B7 /* Default.png */,
 				EC838CB015BB491100ABC3B7 /* eyechecker */,
 				EC838CA915BB491100ABC3B7 /* Frameworks */,
 				EC838CA715BB491100ABC3B7 /* Products */,
@@ -155,6 +161,8 @@
 			files = (
 				EC838CB515BB491100ABC3B7 /* InfoPlist.strings in Resources */,
 				EC838CBE15BB491100ABC3B7 /* MainStoryboard.storyboard in Resources */,
+				EC838CCB15BB503C00ABC3B7 /* Default.png in Resources */,
+				EC838CCD15BB504D00ABC3B7 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
